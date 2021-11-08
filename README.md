@@ -4,17 +4,17 @@
 
 ### Usage:
 
-####Install requirements
+#### Install requirements
 ```commandline
 python -m pip install -r requirements.txt
 ```
 
-####Import fractal class
+#### Import fractal class
 ```python
 from chaos_theory import FractalChaos
 ```
 
-####Create fractal
+#### Create fractal
 ```python
 fractal = FractalChaos(
     points_quantity=5,  # Number of corners of the figure
@@ -22,22 +22,22 @@ fractal = FractalChaos(
 )
 ```
 
-####It is possible to ge all points of fractal first
+#### It is possible to ge all points of fractal first
 ```python
 points = fractal.get()
 ```
 
-####It is also possible to all get points generator
+#### It is also possible to all get points generator
 ```python
 points = fractal.get_generator()
 ```
 
-####Or render fractal straightaway
+#### Or render fractal straightaway
 ```python
 fractal.render()
 ```
 
-####There is one concrete class FractalPyramid inherited from FractalChaos. It predefines figure corners to generate pyramid fractal
+#### There is one concrete class FractalPyramid inherited from FractalChaos. It predefines figure corners to generate pyramid fractal
 ```python
 from chaos_theory import FractalPyramid
 ```
