@@ -157,3 +157,6 @@ class FractalPyramid(FractalChaos):
             [MAX_SIZE, MAX_SIZE, 0],
             [MAX_SIZE * .5, MAX_SIZE * .5, height],
         ])
+
+
+FractalPyramid(iterations=100_000).render(marker={'size': 1})
